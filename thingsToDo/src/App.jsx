@@ -1,6 +1,6 @@
 import ThingsToDo from './components/thingsToDo'
 import './App.css'
-
+import './index.css';
 function App() {
   
 

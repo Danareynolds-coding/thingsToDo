@@ -1,27 +1,29 @@
-import { useState } from "react";
+// import { useState } from "react";
 import todoData from "../todoData";
-import './index.css';
-console.log(todoData);
+
 
 function ThingsToDo (){
 
-    const [thingsToDo, setThingsToDo] = useState([])
+    // const [thingsToDo, setThingsToDo] = useState([])
     
     return (
         
        <div className="row">
             <div className="col-12">
-                <h1>To Do List</h1>
-                <ol>
+                <h2  >To Do List</h2>
+                <hr></hr>
+                <ol className="col-12">
+
                     {todoData.map(list => (
-                        <li key={list.id} style={{ textDecoration: list.done ? 'line-through' : 'none' }}>
-                            {list.name}
-                            {list.description} 
-                            {list.timeDue}
+                        <li  key={list.id} style={{ textDecoration: list.done ? 'line-through' : 'none' }}>
+                            <h5>{list.name}</h5>
+                            <p>{list.description}{" "}--{" "}{list.timeDue}</p>
+                            
                         </li>
                     ))}
                 </ol>
             </div>
+            
         </div>
     );
 }

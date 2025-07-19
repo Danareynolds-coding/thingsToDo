@@ -30,7 +30,7 @@ const todoData = [
         done: false,
     },
     {   id: 5,
-        name: "FInish coding",
+        name: "Finish coding",
         description: "Write out that react jsx",
         timeDue: "5:00 pm",
         done: false
