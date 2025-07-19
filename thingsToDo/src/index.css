@@ -1,5 +1,4 @@
 body{
-
     background-image: url(clean.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,12 +10,15 @@ body{
     width: 100%;
 }
 .row{
-    background-color: rgba(127, 255, 212, 0.628);
+    background-color: rgba(209, 227, 161, 0.628);
 
 }
-h2{
+h2{ margin-top: 3%;
+    padding-top: 2%;
     text-align: center;
     color: darkcyan;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 ol li{
