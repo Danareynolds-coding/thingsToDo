@@ -8,31 +8,70 @@ body{
     display:flex;
     margin-top: 2%;
     width: 100%;
+    padding:2%;
+     background-color: rgba(227, 110, 168, 0.628);
 }
 .row{
-    background-color: rgba(209, 227, 161, 0.628);
+    margin: 2%;
+    justify-content: center;
 
 }
-h2{ margin-top: 3%;
+h1{ margin-top: 3%;
     padding-top: 2%;
     text-align: center;
     color: darkcyan;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-
+ol li h4{
+    font-style:oblique;
+    font-weight: 900;
+}
 ol li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     color: darkcyan;
+    text-align: center;
+    font-weight: 600;
 }
-button{
+.add-button{
     background-color: darkcyan;
     border-radius: 10%;
-    margin-left: 10px;
+  
     border:none;
     padding: 0 5px;
     font-size :small;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    width:100px;
 }
 
+.box{
+    margin: 20px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(208, 95, 118);
+    border-radius: 10px;
+}
+.ck{
+    font-size: xx-small;
+    margin-bottom: 0;
+}
+.checkbox{
+    background-color: darkcyan;
+    width:20px;
+}
+.mark{
+    font-size:small;
+    background-color: cyan;
+    margin:2%;
+    border:2px solid darkcyan;
+    border-radius: 8%;
+}
+.delete{
+    font-size:small;
+    background-color: cyan;
+    margin:2%;
+    border:none;
+     border:2px solid darkcyan;
+    border-radius: 8%;
+}
