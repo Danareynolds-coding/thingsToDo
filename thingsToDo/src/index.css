@@ -23,49 +23,63 @@ h1{ margin-top: 3%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-ol li h4{
+ul li h4{
     font-style:oblique;
     font-weight: 900;
 }
-ol li{
+ul li{
+    list-style:none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     color: darkcyan;
     text-align: center;
     font-weight: 600;
 }
+.card{
+    background-color: transparent;
+    border: 3px solid darkcyan;
+}
+
 .add-button{
-    background-color: darkcyan;
+    color: darkblue;
+    background-color: cyan;
     border-radius: 10%;
-  
-    border:none;
+    border:3px solid darkcyan;
     padding: 0 5px;
     font-size :small;
     margin-bottom: 8px;
     width:100px;
 }
+.add-button:hover{
+    background-color: hotpink;
+    color:crimson;
+    
+}
+.box:hover{
+    background-color: lightcyan;
+}
 
 .box{
-    margin: 20px;
-    width: 250px;
+    margin: 5px;
+    width: 200px;
     text-align: center;
-    background-color: rgb(208, 95, 118);
+    border:2px solid crimson;
+    background-color: rgb(234, 183, 193);
     border-radius: 10px;
+    color: crimson;
 }
-.ck{
-    font-size: xx-small;
-    margin-bottom: 0;
+.mark:hover{
+    background-color: lightcyan;
+    color: darkcyan;
 }
-.checkbox{
-    background-color: darkcyan;
-    width:20px;
-}
+
 .mark{
     font-size:small;
     background-color: cyan;
     margin:2%;
     border:2px solid darkcyan;
-    border-radius: 8%;
+    border-radius: 15%;
+    color:darkblue ;
 }
 .delete{
     font-size:small;
@@ -73,5 +87,18 @@ ol li{
     margin:2%;
     border:none;
      border:2px solid darkcyan;
-    border-radius: 8%;
+    border-radius: 15%;
+    color: darkblue;
+}
+.priority{
+    font-size: xx-small;
+    margin: 2px;
+    border-radius: 4px;
+    background-color: aquamarine;
+    border: 1px solid darkcyan ;
+    color:darkblue ;
+}
+.priority:hover{
+    background-color: pink;
+    color: crimson;
 }
